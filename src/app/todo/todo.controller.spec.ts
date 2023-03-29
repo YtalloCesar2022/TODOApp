@@ -8,7 +8,7 @@ import { TodoService } from './todo.service';
 const todoEntityList: TodoEntity[] = [
   new TodoEntity({ id: '1', task: 'task-1', isDone: 0 }),
   new TodoEntity({ id: '2', task: 'task-2', isDone: 0 }),
-  new TodoEntity({ id: '3', task: 'task-3', isDone: 0 }),
+  
 ];
 
 const newTodoEntity = new TodoEntity({ task: 'new-task', isDone: 0 })
